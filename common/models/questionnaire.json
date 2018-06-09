@@ -1,7 +1,7 @@
 {
-  "name": "Student",
-  "plural": "students",
-  "base": "User",
+  "name": "Questionnaire",
+  "plural": "questionnaires",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -11,37 +11,31 @@
       "type": "string",
       "required": true
     },
-    "surname": {
+    "date": {
       "type": "string",
+      "required": true
+    },
+    "points":{
+      "type": "array",
       "required": true
     }
   },
   "validations": [],
   "relations": {
-    "school": {
+    "teacher": {
       "type": "belongsTo",
-      "model": "School",
-      "foreignKey": "schoolId"
+      "model": "Teacher",
+      "foreignKey": "teacherId"
     },
-    "groups": {
-      "type": "hasAndBelongsToMany",
-      "model": "Group",
-      "foreignKey": "groupId"
-    },
-    "avatar": {
+    "student": {
       "type": "belongsTo",
-      "model": "Avatar",
-      "foreignKey": "avatarId"
-    },
-    "questionnaires": {
-      "type": "hasMany",
-      "model": "Questionnaire",
+      "model": "Student",
       "foreignKey": "studentId"
     },
-    "badges": {
+    "questions": {
       "type": "hasAndBelongsToMany",
-      "model": "Badge",
-      "foreignKey": "studentId"
+      "model": "Question",
+      "foreignKey": "questionId"
     }
   },
   "acls": [{
@@ -59,7 +53,7 @@
     {
       "accessType": "WRITE",
       "principalType": "ROLE",
-      "principalId": "$owner",
+      "principalId": "$everyone",
       "permission": "ALLOW"
     }
   ],

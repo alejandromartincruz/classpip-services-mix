@@ -1,46 +1,37 @@
 {
-  "name": "Student",
-  "plural": "students",
-  "base": "User",
+  "name": "BadgeRelation",
+  "plural": "badgeRelations",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "surname": {
-      "type": "string",
+  "properties": {    
+    "value": {
+      "type": "number",
       "required": true
     }
   },
   "validations": [],
   "relations": {
-    "school": {
+    "badges": {
+      "type": "belongsTo",
+      "model": "Badge",
+      "foreignKey": "badgeId"
+    },
+	  "groups": {
+      "type": "belongsTo",
+      "model": "Group",
+      "foreignKey": "groupId"
+    },
+    "schools": {
       "type": "belongsTo",
       "model": "School",
       "foreignKey": "schoolId"
     },
-    "groups": {
-      "type": "hasAndBelongsToMany",
-      "model": "Group",
-      "foreignKey": "groupId"
-    },
-    "avatar": {
+    "students": {
       "type": "belongsTo",
-      "model": "Avatar",
-      "foreignKey": "avatarId"
-    },
-    "questionnaires": {
-      "type": "hasMany",
-      "model": "Questionnaire",
-      "foreignKey": "studentId"
-    },
-    "badges": {
-      "type": "hasAndBelongsToMany",
-      "model": "Badge",
+      "model": "Student",
       "foreignKey": "studentId"
     }
   },
@@ -48,7 +39,7 @@
       "accessType": "*",
       "principalType": "ROLE",
       "principalId": "$everyone",
-      "permission": "DENY"
+      "permission": "ALLOW"
     },
     {
       "accessType": "READ",
@@ -59,7 +50,7 @@
     {
       "accessType": "WRITE",
       "principalType": "ROLE",
-      "principalId": "$owner",
+      "principalId": "$everyone",
       "permission": "ALLOW"
     }
   ],
