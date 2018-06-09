@@ -161,11 +161,13 @@ module.exports = function (app, cb) {
                                                           id: 1,
                                                           name: 'Cuestionario LCSF 1',
                                                           date: '19/11/2017',
+
                                                           teacherId: 1000
                                                         }, {
                                                           id: 2,
                                                           name: 'Cuestionario LCSF 2',
                                                           date: '19/11/2017',
+
                                                           teacherId: 1000
                                                         }], function (err, questionnaires) {
 

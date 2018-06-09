@@ -18,7 +18,12 @@
     "points":{
       "type": "array",
       "required": true
+    },
+    "groupid":{
+      "type": "string",
+      "required": false
     }
+
   },
   "validations": [],
   "relations": {
