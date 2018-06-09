@@ -70,9 +70,14 @@
       "model": "Teacher",
       "foreignKey": "schoolId"
     },
-    "students": {
+    "points": {
       "type": "hasMany",
-      "model": "Student",
+      "model": "Point",
+      "foreignKey": "schoolId"
+    },
+    "badges": {
+      "type": "hasMany",
+      "model": "Badge",
       "foreignKey": "schoolId"
     }
   },
