@@ -97,5 +97,13 @@
   "PointRelation": {
     "dataSource": "db",
     "public": true
+  },
+  "CollectionCard": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Card": {
+    "dataSource": "db",
+    "public": true
   }
 }
