@@ -38,6 +38,11 @@
       "type": "belongsTo",
       "model": "Avatar",
       "foreignKey": "avatarId"
+    },
+    "collectionCards": {
+      "type": "hasAndBelongsToMany",
+      "model": "CollectionCard",
+      "foreignKey": "teacherId"
     }
   },
   "acls": [{

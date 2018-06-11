@@ -174,13 +174,17 @@ app.models.CollectionCard.create([{
     name: 'Jugadores FC Barcelona',
     image: 'http://4everstatic.com/images/850xX/sport/signes-et-emblemes/fc-barcelona,-embleme,-logo-140029.jpg',
     num: 25,
-    createdBy: 1000
+    createdBy: 1000,
+    teacherId: 1000,
+    collectionCardId: 1
   }, {
     id: 2,
     name: 'Jugadores Real Madrid CF',
     image: 'https://vignette.wikia.nocookie.net/chelsea/images/6/63/Escudo_Real_Madrid.png/revision/latest/scale-to-width-down/343?cb=20140117171341&path-prefix=es',
     num: 25,
-    createdBy: 1000
+    createdBy: 1000,
+    teacherId: 1000,
+    collectionCardId: 2
   }
 ]);
 }
