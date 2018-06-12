@@ -19,6 +19,10 @@
       "type": "array",
       "required": true
     },
+    "badges":{
+      "type": "array",
+      "required": false
+    },
     "groupid":{
       "type": "string",
       "required": false
