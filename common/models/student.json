@@ -52,6 +52,21 @@
       "type": "hasAndBelongsToMany",
       "model": "Card",
       "foreignKey": "cardId"
+    },
+    "pointRelations": {
+      "type": "hasMany",
+      "model": "PointRelation",
+      "foreignKey": "studentId"
+    },
+    "badgeRelations": {
+      "type": "hasMany",
+      "model": "BadgeRelation",
+      "foreignKey": "studentId"
+    },
+    "points": {
+      "type": "hasAndBelongsToMany",
+      "model": "Point",
+      "foreignKey": "pointId"
     }
   },
   "acls": [{
