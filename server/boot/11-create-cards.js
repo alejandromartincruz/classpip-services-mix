@@ -131,7 +131,7 @@ module.exports = function (app, cb) {
   }, {
     id: 19,
     name: 'Aleix Vidal',
-    image: 'http://images.performgroup.com/di/library/GOAL_INTERNATIONAL/87/79/january-transfers-aleix-vidal_1gubcqol5qv7n1w6kxw4ywezyj.jpg?t=1569640360&w=620&h=430',
+    image: 'http://diarioroatan.com/wp-content/uploads/2017/08/ca-4.jpg',
     ratio: 'alto',
     rank: 'plata',
     collectionCardId: 1
@@ -180,7 +180,7 @@ app.models.CollectionCard.create([{
   }, {
     id: 2,
     name: 'Jugadores Real Madrid CF',
-    image: 'https://vignette.wikia.nocookie.net/chelsea/images/6/63/Escudo_Real_Madrid.png/revision/latest/scale-to-width-down/343?cb=20140117171341&path-prefix=es',
+    image: 'https://upload.wikimedia.org/wikipedia/ca/c/c0/Reial_Madrid.png',
     num: 25,
     createdBy: 1000,
     teacherId: 1000,
