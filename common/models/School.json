@@ -16,10 +16,12 @@
     },
     "image": {
       "type": "string",
+      "dataType": "longtext",
       "required": true
     },
     "imageBig": {
       "type": "string",
+      "dataType": "longtext",
       "required": true
     },
     "zipCode": {
