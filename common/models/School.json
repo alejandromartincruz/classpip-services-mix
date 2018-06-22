@@ -81,6 +81,11 @@
       "type": "hasMany",
       "model": "Badge",
       "foreignKey": "schoolId"
+    },
+    "students": {
+      "type": "hasMany",
+      "model": "Student",
+      "foreignKey": "schoolId"
     }
   },
   "acls": [{
