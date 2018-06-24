@@ -1,7 +1,13 @@
 {
   "db": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "db",
+    "password": "Conan1995",
     "name": "db",
-    "connector": "memory"
+    "user": "root",
+    "connector": "mysql"
   },
   "emailDs": {
     "name": "emailDs",

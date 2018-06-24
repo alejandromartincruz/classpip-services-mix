@@ -69,8 +69,8 @@ module.exports = function (app, cb) {
     id: 10,
     name: 'Dembele',
     image: 'http://eldesmarquebarcelona.eldesmarqueporta.netdna-cdn.com/images/stories/2017_18/Barcelona/Plantilla/Dembele/Dembele-debut.jpg',
-    ratio: 'raro',
-    rank: 'diamante',
+    ratio: 'bajo',
+    rank: 'oro',
     collectionCardId: 1
   }, {
     id: 11,
@@ -163,6 +163,13 @@ module.exports = function (app, cb) {
     ratio: 'raro',
     rank: 'diamante',
     collectionCardId: 2
+  }, {
+    id: 24,
+    name: 'Cristiano Ronaldo',
+    image: 'https://www.diariogol.com/uploads/s1/55/36/42/1/cristiano-gol-real-sociedad_15_970x597.jpeg',
+    ratio: 'raro',
+    rank: 'diamante',
+    collectionCardId: 2
   }
   ], function (err) {
     if (err) throw err;
@@ -175,16 +182,14 @@ app.models.CollectionCard.create([{
     image: 'http://4everstatic.com/images/850xX/sport/signes-et-emblemes/fc-barcelona,-embleme,-logo-140029.jpg',
     num: 25,
     createdBy: 1000,
-    teacherId: 1000,
-    collectionCardId: 1
+    teacherId: 1000
   }, {
     id: 2,
     name: 'Jugadores Real Madrid CF',
     image: 'https://upload.wikimedia.org/wikipedia/ca/c/c0/Reial_Madrid.png',
     num: 25,
     createdBy: 1000,
-    teacherId: 1000,
-    collectionCardId: 2
+    teacherId: 1000
   }
 ]);
 }

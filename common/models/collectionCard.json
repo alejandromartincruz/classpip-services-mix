@@ -42,7 +42,7 @@
       "model": "Student",
       "foreignKey": "studentId"
     },
-    "groups": {
+    "groups":{
       "type": "hasAndBelongsToMany",
       "model": "Group",
       "foreignKey": "groupId"
@@ -57,7 +57,7 @@
     {
       "accessType": "READ",
       "principalType": "ROLE",
-      "principalId": "$everyone",
+      "principalId": "$authenticated",
       "permission": "ALLOW"
     },
     {

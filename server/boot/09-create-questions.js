@@ -170,6 +170,7 @@ module.exports = function (app, cb) {
                                                           date: '19/11/2017',
                                                           points: [20,16,14,12,10,8,0],
                                                           badges: ["100001","100002"],
+                                                          groupid: 2,
                                                           teacherId: 1000
                                                         }], function (err, questionnaires) {
 
