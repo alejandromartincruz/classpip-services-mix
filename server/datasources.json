@@ -7,7 +7,7 @@
     "password": "Conan1995",
     "name": "db",
     "user": "root",
-    "connector": "mysql"
+    "connector": "memory"
   },
   "emailDs": {
     "name": "emailDs",
