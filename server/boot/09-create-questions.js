@@ -162,7 +162,9 @@ module.exports = function (app, cb) {
                                                           name: 'Cuestionario LCSF 1',
                                                           date: '19/11/2017',
                                                           points: [20,16,14,12,10,8,0],
+                                                          badges: ["100000","100001"],
                                                           groupid: 1,
+                                                          active: true,
                                                           teacherId: 1000
                                                         }, {
                                                           id: 2,
@@ -171,6 +173,7 @@ module.exports = function (app, cb) {
                                                           points: [20,16,14,12,10,8,0],
                                                           badges: ["100001","100002"],
                                                           groupid: 2,
+                                                          active: false,
                                                           teacherId: 1000
                                                         }], function (err, questionnaires) {
 

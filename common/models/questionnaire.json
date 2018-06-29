@@ -26,6 +26,10 @@
     "groupid":{
       "type": "string",
       "required": false
+    },
+    "active":{
+      "type": "boolean",
+      "required": true
     }
 
   },
