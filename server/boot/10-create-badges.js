@@ -6,24 +6,31 @@ module.exports = function (app, cb) {
     id: 100000,
     name: 'Misterwong',
     image: 'https://cdn2.iconfinder.com/data/icons/web2/Icons/Misterwong_128x128.png',
-	value: '1',
+	  value: '10',
     schoolId: 1,
-    teacherId: 1000	
+    teacherId: 1000
   }, {
     id: 100001,
     name: 'Favorite',
     image: 'https://cdn2.iconfinder.com/data/icons/web2/Icons/Favorite_128x128.png',
-	value: '3',
+	value: '5',
+    schoolId: 1,
+    teacherId: 1000
+  }, {
+    id: 100002,
+    name: 'Mr Collection',
+    image: 'http://hangingtogether.org/wp-content/uploads/2015/04/Managing-Metadata-for-Image-Collections-blog-graphic.png',
+	value: '20',
     schoolId: 1,
     teacherId: 1000
   }], function (err) {
     if (err) throw err;
-	
+
 	app.models.BadgeRelation.create([{
 		id: 1,
 		value: '1',
 		badgeId: 100000,
-		groupId: 1,	
+		groupId: 1,
 		studentId: 10000,
 		schoolId: 1
 	  }, {
@@ -293,7 +300,7 @@ module.exports = function (app, cb) {
 		studentId: 10008,
 		schoolId: 1
 	  }], function (err) {
-	
+
     process.nextTick(cb);
 	});
   });

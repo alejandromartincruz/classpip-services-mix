@@ -182,7 +182,8 @@ app.models.CollectionCard.create([{
     image: 'http://4everstatic.com/images/850xX/sport/signes-et-emblemes/fc-barcelona,-embleme,-logo-140029.jpg',
     num: 25,
     createdBy: 1000,
-    teacherId: 1000
+    teacherId: 1000,
+
   }, {
     id: 2,
     name: 'Jugadores Real Madrid CF',

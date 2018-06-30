@@ -23,7 +23,11 @@
     "createdBy": {
       "type": "string",
       "required": true
-    }
+    },
+    "badgeId":{
+      "type": "string",
+      "required": false
+        }
   },
   "validations": [],
   "relations": {
