@@ -183,6 +183,7 @@ app.models.CollectionCard.create([{
     num: 25,
     createdBy: 1000,
     teacherId: 1000,
+    badgeId: 100002
 
   }, {
     id: 2,
