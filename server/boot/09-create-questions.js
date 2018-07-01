@@ -165,7 +165,7 @@ module.exports = function (app, cb) {
                                                           badges: ["100003","100001","100002"],
                                                           groupid: 1,
                                                           active: true,
-                                                          packCards: [5,4,3],
+                                                          packCards: [1,5,4,3],
 
                                                           teacherId: 1000
                                                         }, {
@@ -176,7 +176,7 @@ module.exports = function (app, cb) {
                                                           badges: ["100003","100001","100002"],
                                                           groupid: 2,
                                                           active: false,
-                                                          packCards: [3,2,1],
+                                                          packCards: [2,3,2,1],
                                                           teacherId: 1000
                                                         }], function (err, questionnaires) {
 
