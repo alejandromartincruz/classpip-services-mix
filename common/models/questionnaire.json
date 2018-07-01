@@ -30,6 +30,10 @@
     "active":{
       "type": "boolean",
       "required": true
+    },
+    "packCards":{
+      "type": "array",
+      "required": false
     }
 
   },

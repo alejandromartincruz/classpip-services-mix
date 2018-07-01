@@ -20,7 +20,14 @@ module.exports = function (app, cb) {
     id: 100002,
     name: 'Mr Collection',
     image: 'http://hangingtogether.org/wp-content/uploads/2015/04/Managing-Metadata-for-Image-Collections-blog-graphic.png',
-	value: '20',
+	  value: '20',
+    schoolId: 1,
+    teacherId: 1000
+  }, {
+    id: 100003,
+    name: 'Boss',
+    image: 'https://i.pinimg.com/originals/7d/f8/62/7df8629260663b053256b0ad5c2a17a9.png',
+	  value: '25',
     schoolId: 1,
     teacherId: 1000
   }], function (err) {

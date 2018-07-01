@@ -162,18 +162,21 @@ module.exports = function (app, cb) {
                                                           name: 'Cuestionario LCSF 1',
                                                           date: '19/11/2017',
                                                           points: [20,16,14,12,10,8,0],
-                                                          badges: ["100000","100001"],
+                                                          badges: ["100003","100001","100002"],
                                                           groupid: 1,
                                                           active: true,
+                                                          packCards: [5,4,3],
+
                                                           teacherId: 1000
                                                         }, {
                                                           id: 2,
                                                           name: 'Cuestionario LCSF 2',
                                                           date: '19/11/2017',
                                                           points: [20,16,14,12,10,8,0],
-                                                          badges: ["100001","100002"],
+                                                          badges: ["100003","100001","100002"],
                                                           groupid: 2,
                                                           active: false,
+                                                          packCards: [3,2,1],
                                                           teacherId: 1000
                                                         }], function (err, questionnaires) {
 
