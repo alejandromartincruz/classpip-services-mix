@@ -53,21 +53,21 @@ module.exports = function (app, cb) {
 	app.models.PointRelation.create([{
 		id: 1,
 		value: '10',
-		pointId: 100000,
+		pointId: 100001,
 		groupId: 1,
-		studentId: 10000,
+		studentId: 10001,
 		schoolId: 1
 	  }, {
 		id: 2,
 		value: '20',
-		pointId: 100000,
+		pointId: 100001,
 		groupId: 1,
-		studentId: 10000,
+		studentId: 10001,
 		schoolId: 1
 	  }, {
 		id: 3,
 		value: '15',
-		pointId: 100000,
+		pointId: 100001,
 		groupId: 1,
 		studentId: 10000,
 		schoolId: 1
@@ -123,14 +123,14 @@ module.exports = function (app, cb) {
 	  }, {
 		id: 11,
 		value: '1',
-		pointId: 100000,
+		pointId: 100001,
 		groupId: 1,
 		studentId: 10000,
 		schoolId: 1
 	  }, {
 		id: 12,
 		value: '5',
-		pointId: 100000,
+		pointId: 100001,
 		groupId: 1,
 		studentId: 10000,
 		schoolId: 1
@@ -193,14 +193,14 @@ module.exports = function (app, cb) {
 	  }, {
 		id: 21,
 		value: '1',
-		pointId: 100000,
+		pointId: 100004,
 		groupId: 2,
 		studentId: 10000,
 		schoolId: 1
 	  }, {
 		id: 22,
 		value: '1',
-		pointId: 100000,
+		pointId: 100002,
 		groupId: 2,
 		studentId: 10000,
 		schoolId: 1
@@ -263,14 +263,14 @@ module.exports = function (app, cb) {
 	  },{
 		id: 31,
 		value: '1',
-		pointId: 100000,
+		pointId: 100003,
 		groupId: 3,
 		studentId: 10000,
 		schoolId: 1
 	  }, {
 		id: 32,
 		value: '1',
-		pointId: 100000,
+		pointId: 100003,
 		groupId: 3,
 		studentId: 10000,
 		schoolId: 1
