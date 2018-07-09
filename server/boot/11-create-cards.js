@@ -181,7 +181,7 @@ app.models.CollectionCard.create([{
     name: 'Jugadores FC Barcelona',
     image: 'http://4everstatic.com/images/850xX/sport/signes-et-emblemes/fc-barcelona,-embleme,-logo-140029.jpg',
     num: 20,
-    createdBy: 1000,
+    createdBy: "teacher-1",
     teacherId: 1000,
     badgeId: 100002
 
@@ -190,10 +190,7 @@ app.models.CollectionCard.create([{
     name: 'Jugadores Real Madrid CF',
     image: 'https://upload.wikimedia.org/wikipedia/ca/c/c0/Reial_Madrid.png',
     num: 25,
-    createdBy: 1000,
+    createdBy: "teacher-1",
     teacherId: 1000
   }
-]);
-}
-
-;
+])};
