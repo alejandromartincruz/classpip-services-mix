@@ -27,13 +27,13 @@
       "type": "string",
       "required": false
     },
-    "active":{
-      "type": "boolean",
-      "required": true
-    },
     "packCards":{
       "type": "array",
       "required": false
+    },
+    "active":{
+      "type": "boolean",
+      "required": true
     }
 
   },
